@@ -1,0 +1,107 @@
+@keyframes color-change {
+  0% {
+    color: white;
+  }
+  50% {
+    color: #702218;
+  }
+  100% {
+    color: white;
+  }
+}
+
+body {
+  background-color: black;
+  color: wheat;
+  margin: 0;
+}
+main {
+  color: aliceblue;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(https://mundfish.com/wp-content/themes/atomicheart/app/dist/img/new-subscribe-bg.png);
+}
+.head {
+  position: sticky;
+  top: 0;
+  font-size: 25px;
+  background-color: #702218;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-variant: small-caps;
+  z-index: 999;
+}
+.start {
+  display: list-item;
+  margin: 0px 80px;
+}
+.start:hover {
+  color: black;
+}
+.about {
+  display: list-item;
+  margin: 0px 80px;
+}
+.about:hover {
+  color: black;
+}
+.work {
+  display: list-item;
+  margin: 0px 80px;
+}
+.work:hover {
+  color: black;
+}
+.git {
+  display: list-item;
+  margin: 0px 80px;
+}
+.git:hover {
+  color: black;
+}
+.vk {
+  display: list-item;
+  margin: 0px 80px;
+}
+.vk:hover {
+  color: black;
+}
+.head ul {
+  display: flex;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: wheat;
+}
+img {
+  border: 10px solid #702218;
+  border-radius: 10%;
+  margin-top: 50px;
+}
+.welcome {
+  padding-left: 250px;
+  padding-top: 120px;
+  font-size: 35px;
+  font-weight: bold;
+}
+.eb {
+  animation: color-change 3s infinite;
+}
+#mygit {
+  margin-left: 150px;
+}
+#tgpic img {
+  border: 1px solid transparent;
+  width: 50px;
+  padding-left: 450px;
+  padding-bottom: 50px;
+  padding-top: 1px;
+}
+#abouttxt {
+  scroll-margin-top: 8rem;
+}
+#mywork {
+  scroll-margin-top: 8rem;
+}
